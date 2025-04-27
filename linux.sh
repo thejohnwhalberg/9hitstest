@@ -105,6 +105,7 @@ function not_supported() {
 	exit 1
 }
 
+# abort with an error message
 function abort() {
 	read -r line func file <<< "$(caller 0)"
 	echo "ERROR in $file:$func:$line: $1" > /dev/stderr
