@@ -1,6 +1,6 @@
 #!/bin/bash
 DEFAULT_DOWNLOAD="http://mirror-dl.9hits.com/3.0.4/9hitsv3-linux64.tar.bz2"
-_9HITSUSER="_9hits"
+_9HITSUSER="c4cfaf37a53f7bf02ee2c8e1f5425489"
 
 set -- --default-dl=$DEFAULT_DOWNLOAD $@
 ARGS=$@
